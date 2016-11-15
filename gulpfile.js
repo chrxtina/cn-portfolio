@@ -50,13 +50,13 @@ gulp.task('minify-js', function() {
         }))
 });
 
-// Copy vendor libraries from /node_modules into /vendor
+// Copy statics libraries from /node_modules into /statics
 gulp.task('copy', function() {
     gulp.src(['node_modules/bootstrap/dist/**/*', '!**/npm.js', '!**/bootstrap-theme.*', '!**/*.map'])
-        .pipe(gulp.dest('vendor/bootstrap'))
+        .pipe(gulp.dest('statics/bootstrap'))
 
     gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/jquery/dist/jquery.min.js'])
-        .pipe(gulp.dest('vendor/jquery'))
+        .pipe(gulp.dest('statics/jquery'))
 
     gulp.src([
             'node_modules/font-awesome/**',
@@ -66,7 +66,7 @@ gulp.task('copy', function() {
             '!node_modules/font-awesome/*.md',
             '!node_modules/font-awesome/*.json'
         ])
-        .pipe(gulp.dest('vendor/font-awesome'))
+        .pipe(gulp.dest('statics/font-awesome'))
 })
 
 // Run everything
