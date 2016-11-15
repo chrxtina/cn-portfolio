@@ -8,10 +8,57 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-/*h2 {
-  font-family: 'Playfair Display', serif;
-  font-family: 'Old Standard TT', serif;
-}*/
+h2 {
+  /*font-family: 'Playfair Display', serif;*/
+  /*font-family: 'Old Standard TT', serif;*/
+  /*font-family: 'Abril Fatface', cursive;*/
+  /*font-family: 'Permanent Marker', cursive;*/
+  font-family: 'Reenie Beanie', cursive;
+}
+
+ .li-modal {
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+.modal-close {
+  margin: 10px 0;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 20px;
+  padding: 3px 7px;
+  border-radius: 0;
+
+}
+
+.profile-photo {
+  border:2px solid white;
+}
+
+.title {
+  text-align: right;
+}
+
+hr.hr-modal{
+  border-top: 1px solid #8c8b8b;
+}
+
+.hr-modal-footer {
+  width: 65%;
+  border-top: 1px solid #8c8b8b;
+}
+
+img.img-modal {
+  max-height: 300px;
+}
+
+
+.about {
+  /*text-align: justify;*/
+  letter-spacing: .5px;
+  width: 80%;
+  margin: 0 auto;
+  text-indent: 40px;
+}
 
 .envelope {
   margin-top: 10px;
@@ -30,4 +77,24 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.ember-icon {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.background {
+  background:url("Etretat.jpg");
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+}
+
+.layer {
+  background-color: rgba(148,126,133, 0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

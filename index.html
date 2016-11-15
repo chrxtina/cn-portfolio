@@ -9,7 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Portfolio | Christina A. Nguyen</title>
+    <title>Christina A. Nguyen</title>
+    <link rel='icon' href='img/favicon.ico' type='image/x-icon'>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,6 +28,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:700|Playfair+Display:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Permanent+Marker|Reenie+Beanie" rel="stylesheet">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +50,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">CN</a>
+                <a class="navbar-brand" href="#page-top">CN_</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -77,18 +80,30 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
+      <div class="background">
+        <div class="layer">
+          <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive img-circle" src="img/christina.jpg" alt="profile photo" height="256" width="256">
+                    <img class="img-responsive img-circle profile-photo" src="img/christina.jpg" alt="profile photo" height="256" width="256">
                     <div class="intro-text">
-                        <span class="name">Christina A. Nguyen</span>
-                        <hr>
-                        <span class="skills">Full-Stack Web Developer</span>
+                      <span class="name">Christina A. Nguyen</span>
+                      <hr>
+                      <span class="skills">
+                        <div class="col-xs-6 title">
+                          Full-Stack Web Developer
+                        </div>
+                        <div class="col-xs-4">
+                          <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          Boston
+                        </div>
+                      </span>
                     </div>
                 </div>
             </div>
+          </div>
         </div>
+      </div>
     </header>
 
     <!-- Portfolio Grid Section -->
@@ -105,40 +120,44 @@
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                              <h3>Cup O' Sugar</h3>
+                              Ember.js  |  Rails
                             </div>
                         </div>
-                        <img src="img/portfolio/coming-soon.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/MockupCupoSugar.svg" class="img-responsive" alt="CupoSugar page">
                     </a>
                 </div>
                 <div class="col-md-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                              <h3>Paisel</h3>
+                              JavaScript |  Rails
                             </div>
                         </div>
-                        <img src="img/portfolio/paisel.jpg" class="img-responsive" alt="Paisel page">
+                        <img src="img/portfolio/MockupPaisel.svg" class="img-responsive" alt="Paisel page">
                     </a>
                 </div>
                 <div class="col-md-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                              <h3>TypeWriter</h3>
+                              JavaScript |  Express.js
                             </div>
                         </div>
-                        <img src="img/portfolio/typewriter.jpg" class="img-responsive" alt="Typewriter page">
+                        <img src="img/portfolio/MockupTypewriter.svg" class="img-responsive" alt="Typewriter page">
                     </a>
                 </div>
                 <div class="col-md-6 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                              <h3>Tic Tac Toe</h3>
+                              JavaScript | jQuery
                             </div>
                         </div>
-                        <img src="img/portfolio/tic-tac-toe.jpg" class="img-responsive" alt="Tic-tac-toe page">
+                        <img src="img/portfolio/MockupTicTacToe.svg" class="img-responsive" alt="Tic-tac-toe page">
                     </a>
                 </div>
             </div>
@@ -147,27 +166,22 @@
 
     <!-- About Section -->
     <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p class="about">My journey into web development blossomed while I was in search of a field that combines artistic creativity with practical ingenuity. In this search, a significant criterion for me was developing skills that were not only applicable for career purposes but ones that could provide a key to unlocking my own ideas. I love having the ability to transform simple ideas and wireframes into functional dynamic applications using the latest technologies.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p class="about">My penchant for design and efficiency drive my ambition to produce user-friendly, cleanly coded and robust applications that utilize the industry's best practices. In the end, my overarching aspiration is to bring to life ideas that have the potential to reach as many people as possible and make a positive impact on their lives.</p>
-                </div>
-                <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div> -->
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>About</h2>
+            <hr>
+          </div>
         </div>
+        <div >
+          <br>
+          <p class="about">My journey into web development blossomed while I was in search of a field that combines artistic creativity with practical ingenuity. In this search, a significant criterion for me was developing skills that were not only applicable for career purposes but ones that could provide a key to unlocking my own ideas. I love having the ability to transform simple ideas and wireframes into functional dynamic applications using the latest technologies.</p>
+        </div>
+        <br>
+        <div >
+          <p class="about">My penchant for design and efficiency drive my ambition to produce user-friendly, cleanly coded and robust applications that utilize the industry's best practices. In the end, my overarching aspiration is to bring to life ideas that have the potential to reach as many people as possible and make a positive impact on their lives.</p>
+        </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
@@ -225,6 +239,10 @@
                   <div class="col-sm-3 devicon">
                     <i class="devicon-mongodb-plain"></i>
                     MongoDB
+                  </div>
+                  <div class="col-sm-3 devicon">
+                    <img class="ember-icon" width="25" height="25" itemprop="image" title="Ember.js" alt="Ember.js" src="https://d1dkupr86d302v.cloudfront.net/community/assets/tag-icons/icon-tag-ember-js-cde7c25145b384264e34a5beab187f9ac6a44636f8d2c927c82b837cbe06d621.svg">
+                    Ember.js
                   </div>
 
                   <!-- <i class="devicon-illustrator-plain"></i>
@@ -300,25 +318,31 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <h2>Cup O' Sugar</h2>
+                            <hr class="hr-modal">
                             <ul class="list-inline item-details">
-                                <li><i class="fa fa-code" aria-hidden="true"></i>
-                                    <strong><a target="_blank" href="">Client</a>
+                                <li class="li-modal"><i class="fa fa-code" aria-hidden="true"></i>
+                                    <strong><a target="_blank" href="https://github.com/chrxtina/capstone-client">Client</a>
                                     </strong>
                                 </li>
-                                <li><i class="fa fa-code" aria-hidden="true"></i>
-                                    <strong><a target="_blank" href="">API</a>
+                                <li class="li-modal"><i class="fa fa-code" aria-hidden="true"></i>
+                                    <strong><a target="_blank" href="https://github.com/chrxtina/capstone-api">API</a>
                                     </strong>
                                 </li>
-                                <li><i class="fa fa-laptop" aria-hidden="true"></i>
-                                    <strong><a target="_blank" href="">Live App</a>
+                                <li class="li-modal"><i class="fa fa-laptop" aria-hidden="true"></i>
+                                    <strong><a target="_blank" href="https://chrxtina.github.io/capstone-client/">Live App</a>
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <img src="img/portfolio/MockupCupoSugar.svg" class="img-responsive img-centered img-modal" alt="Cup O'Sugar page">
+                            <p>
+                              Cup O' Sugar is a 'shareconomy' application that allows users to post items online and share them with their neighbors. The app is meant to foster community, provide a resource for those in need and possibly prevent unnecessary consumerism.
+                            </p>
+                            <hr class="hr-modal-footer">
+                            <p>
+                              Ember.js | Bootstrap | Ruby on Rails | PostgreSQL
+                            </p>
+                            <button type="button" class="btn btn-default modal-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
@@ -338,24 +362,28 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Paisel</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/paisel.jpg" class="img-responsive img-centered" alt="Paisel page">
-                            <p>Paisel is an anonymous thought sharing app that gives users an outlet for their thoughts as well as provides a community whereby users may read each others thoughts, interact through polls and, in a sense, not feel alone (fr. pas seul).</p>
+                            <hr class="hr-modal">
                             <ul class="list-inline item-details">
-                                <li><i class="fa fa-code" aria-hidden="true"></i>
+                                <li class="li-modal"><i class="fa fa-code" aria-hidden="true"></i>
                                     <strong><a target="_blank" href="https://github.com/chrxtina/paisel-client">Client</a>
                                     </strong>
                                 </li>
-                                <li><i class="fa fa-code" aria-hidden="true"></i>
+                                <li class="li-modal"><i class="fa fa-code" aria-hidden="true"></i>
                                     <strong><a target="_blank" href="https://github.com/chrxtina/paisel-api">API</a>
                                     </strong>
                                 </li>
-                                <li><i class="fa fa-laptop" aria-hidden="true"></i>
+                                <li class="li-modal"><i class="fa fa-laptop" aria-hidden="true"></i>
                                     <strong><a target="_blank" href="https://chrxtina.github.io/paisel-client/">Live App</a>
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <img src="img/portfolio/MockupPaisel.svg" class="img-responsive img-centered img-modal" alt="Paisel page">
+                            <p>Paisel is an anonymous thought sharing app that gives users an outlet for their thoughts as well as provides a community whereby users may read each others thoughts, interact through polls and, in a sense, not feel alone (fr. pas seul).</p>
+                            <hr class="hr-modal-footer">
+                            <p>
+                              JavaScript | Handlebars | jQuery |  Bootstrap | Ruby on Rails | PostgreSQL
+                            </p>
+                            <button type="button" class="btn btn-default modal-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
@@ -375,24 +403,34 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Typewriter</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/typewriter.jpg" class="img-responsive img-centered" alt="">
-                            <p>TypeWriter is a content management system that allows non-technical end-users to create a blog (which can contain many postings) and pages with their own content, and add basic formatting to that content.</p>
+                            <hr class="hr-modal">
                             <ul class="list-inline item-details">
-                              <li><i class="fa fa-code" aria-hidden="true"></i>
+                              <li class="li-modal"><i class="fa fa-code" aria-hidden="true"></i>
                                   <strong><a target="_blank" href="https://github.com/lewdFractals/project-3-client">Client</a>
                                   </strong>
                               </li>
-                              <li><i class="fa fa-code" aria-hidden="true"></i>
+                              <li class="li-modal"><i class="fa fa-code" aria-hidden="true"></i>
                                   <strong><a target="_blank" href="https://github.com/lewdFractals/project-3-api">API</a>
                                   </strong>
                               </li>
-                              <li><i class="fa fa-laptop" aria-hidden="true"></i>
+                              <li class="li-modal"><i class="fa fa-laptop" aria-hidden="true"></i>
                                   <strong><a target="_blank" href="https://lewdfractals.github.io/project-3-client">Live App</a>
                                   </strong>
                               </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <img src="img/portfolio/MockupTypewriter.svg" class="img-responsive img-centered img-modal" alt="Typewriter page">
+                            <p>TypeWriter is a content management system that allows non-technical end-users to create a blog (which may contain many posts) and pages with their own content, as well as add basic formatting to that content.</p>
+                            <hr class="hr-modal-footer">
+                            <p>
+                              Group Members:
+                              <a target="_blank" href="https://github.com/laurenallegra">Lauren Schwartz</a>,
+                              <a target="_blank" href="https://github.com/bullhead242">Pete Salomone</a>,
+                              <a target="_blank" href="https://github.com/rosmith76">Robbe Smith</a>
+                            </p>
+                            <p>
+                              JavaScript | Handlebars | Node.js | Express.js | MongoDB
+                            </p>
+                            <button type="button" class="btn btn-default modal-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
@@ -412,20 +450,24 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Tic Tac Toe</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/tic-tac-toe.jpg" class="img-responsive img-centered" alt="">
-                            <p>A browser-based, single page game application. Uses AJAX to connect with a provided back-end API to store game states and user authentication data. Front-end technologies include JavaScript, Bootstrap,  SCSS/Sass, and jQuery.</p>
+                            <hr class="hr-modal">
                             <ul class="list-inline item-details">
-                              <li><i class="fa fa-code" aria-hidden="true"></i>
+                              <li class="li-modal"><i class="fa fa-code" aria-hidden="true"></i>
                                   <strong><a target="_blank" href="https://github.com/chrxtina/project-1">Client</a>
                                   </strong>
                               </li>
-                              <li><i class="fa fa-laptop" aria-hidden="true"></i>
+                              <li class="li-modal"><i class="fa fa-laptop" aria-hidden="true"></i>
                                   <strong><a target="_blank" href="https://chrxtina.github.io/project-1/">Live App</a>
                                   </strong>
                               </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <img src="img/portfolio/MockupTicTacToe.svg" class="img-responsive img-centered img-modal" alt="Tic-tac-toe page">
+                            <p>A browser-based, single page game application. Uses AJAX to connect with a provided back-end API to store game states and user authentication data.</p>
+                            <hr class="hr-modal-footer">
+                            <p>
+                               JavaScript | jQuery | Bootstrap |  SCSS/Sass
+                            </p>
+                            <button type="button" class="btn btn-default modal-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
